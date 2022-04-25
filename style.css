@@ -22,7 +22,7 @@ body {
     min-height: 100px;
     background-color: #fff;
     display: grid;
-    grid-template-columns: 1.25fr 2fr;
+    grid-template-columns: 1.15fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
@@ -57,6 +57,7 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
 .profile h2{
     color: #fff;
     font-size: 1.5em;
@@ -66,12 +67,71 @@ body {
     font-weight: 600;
     line-height: 1.4em;
 }
+
 .profile h2 span{
     font-weight: 0.8em;
     font-weight: 400;
 }
+
 .container main {
     position: relative;
     background-color: #fff;
     padding: 40px;
+}
+
+.contacts{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.contacts .title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contacts ul{
+    position: relative;
+
+}
+
+.contacts ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contacts ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.contacts ul li span{
+    color: white;
+    font-weight: 300;
+}
+
+.contacts ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contacts.skills .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.contacts.skills .percent div{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    background: #03a9f4;
 }
